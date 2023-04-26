@@ -4,7 +4,7 @@ Membuat animasi spinner (loading) Animasi spinner tersebut terdiri dari tiga tex
 
 Selain itu kita mengunakan keyframes dengan nama "spinner-animation". memutar text-texts ditengah layar pada interval 1,5 detik.
 
-▪️animasi spinner, class ".spinner-text:nth-child(3)" memiliki animatio-delay 0,5 detik 
+▪️animasi spinner, class ".spinner-text:nth-child(2)" memiliki animatio-delay 0,5 detik 
 
 ▪️animasi spinner, class ".spinner-text:nth-child(3)" memiliki animation-delay 1 detik
 
@@ -17,7 +17,7 @@ kita mengunakan javascript yang menangani animasi spinner
 
 Pertama, kode 
 
-▪️ const spinner = document.getElementByIf("spinner"); 
+▪️ const spinner = document.getElementById("spinner"); 
 
 menentukan element HTML yang memiliki (id) spinner dan menyimpanya ke dalam variabel spinner.
 
