@@ -1,0 +1,2 @@
+# spinner
+Langkah membuat spinner 
